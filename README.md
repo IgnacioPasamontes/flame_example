@@ -25,13 +25,10 @@ cd flame_API/flame_api
 ```
 ### Configure files and paths:
 
-Replace `{ABSOLUTE_PROJECT_PATH}` string  with the absolute path of the project in the `nginx-app.conf` and `supervisor-app.conf` files. E.g. `{ABSOLUTE_PROJECT_PATH}` == `/home/user/flame_service`
+In the `nginx-app.conf`, `supervisor-app.conf` and `uwsgi.ini` replace `{ABSOLUTE_PROJECT_PATH}` string  with the absolute path of the project and `{ENVIRONMENT_PATH_FLAME}` string  with the absolute path of the flame enviroment  files. E.g. 
 
 ![nginx](img/nginx.gif)
 ![supervisor](img/supervisord.gif)
-
-Replace `{ENVIRONMENT_PATH_FLAME}` string  with the absolute path of the flame enviroment in the `uwsgi.ini`file. E.g. `{ENVIRONMENT_PATH_FLAME}` == `/home/user/conda/envs/flame`
-
 ![uwsgi](img/uwsgi.gif)
 
 Create the folder 'var/run/nginx/' in your flame enviroment.  
