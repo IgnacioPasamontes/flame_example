@@ -25,20 +25,25 @@ cd flame_API/flame_api
 ```
 Configure files:
 
-Replace `{ABSOLUTE_PROJECT_PATH}` string  with the absolute path of the project in the `nginx-app.conf` and `supervisor-app.conf` files.
+Replace `{ABSOLUTE_PROJECT_PATH}` string  with the absolute path of the project in the `nginx-app.conf` and `supervisor-app.conf` files. E.g. `{ABSOLUTE_PROJECT_PATH}` == `/home/user/flame_service`
 
 ![nginx](img/nginx.gif)
 ![supervisor](img/supervisord.gif)
 
-Replace `{ENVIRONMENT_PATH_FLAME}` string  with the absolute path of the flame enviroment in the `uwsgi.ini`file.
+Replace `{ENVIRONMENT_PATH_FLAME}` string  with the absolute path of the flame enviroment in the `uwsgi.ini`file. E.g. `{ENVIRONMENT_PATH_FLAME}` == `/home/user/conda/envs/flame`
+
 ![uwsgi](img/uwsgi.gif)
 
+Create the folder 'var/run/nginx/' in your flame enviroment.  
 
+```sh
+mkdir /home/$user/$conda/envs/flame/var/run/nginx/
+```
 
 Type
 
 ```
-python manage.py runserver
+supervisord -c supervisor-app.conf
 ```
 
 Then, open a browser and type the address http://localhost:8000
