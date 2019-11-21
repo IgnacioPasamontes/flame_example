@@ -1,13 +1,15 @@
-name: flame_service
+name: flame
 channels:
   - default
   - rdkit
+  - mordred-descriptor
   - conda-forge
   - anaconda
 dependencies:
   - cherrypy=>18
   - numpy=>1.14.0
   - matplotlib=>2.1.2
+  - mordred==1.2.0
   - pip
   - python=3.6
   - scipy=>1.0.0

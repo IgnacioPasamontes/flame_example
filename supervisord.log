@@ -828,3 +828,335 @@
 2019-11-20 16:43:21,211 INFO waiting for app-uwsgi to die
 2019-11-20 16:43:22,277 WARN killing 'app-uwsgi' (8586) with SIGKILL
 2019-11-20 16:43:22,279 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 09:58:05,693 INFO supervisord started with pid 2947
+2019-11-21 09:58:06,697 INFO spawned: 'app-uwsgi' with pid 2951
+2019-11-21 09:58:06,701 INFO spawned: 'nginx-app' with pid 2952
+2019-11-21 09:58:06,735 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 09:58:08,670 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 09:58:08,674 INFO spawned: 'nginx-app' with pid 2969
+2019-11-21 09:58:08,697 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 09:58:10,702 INFO spawned: 'nginx-app' with pid 2976
+2019-11-21 09:58:10,782 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 09:58:13,788 INFO spawned: 'nginx-app' with pid 2983
+2019-11-21 09:58:13,814 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 09:58:14,814 INFO gave up: nginx-app entered FATAL state, too many start retries too quickly
+2019-11-21 09:58:25,829 WARN received SIGINT indicating exit request
+2019-11-21 09:58:25,829 INFO waiting for app-uwsgi to die
+2019-11-21 09:58:29,246 INFO waiting for app-uwsgi to die
+2019-11-21 09:58:32,251 INFO waiting for app-uwsgi to die
+2019-11-21 09:58:35,255 INFO waiting for app-uwsgi to die
+2019-11-21 09:58:37,257 WARN killing 'app-uwsgi' (2951) with SIGKILL
+2019-11-21 09:58:37,260 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 10:00:35,968 INFO supervisord started with pid 3952
+2019-11-21 10:00:36,971 INFO spawned: 'app-uwsgi' with pid 3956
+2019-11-21 10:00:36,974 INFO spawned: 'nginx-app' with pid 3957
+2019-11-21 10:00:38,657 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:00:38,658 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:02:31,769 WARN received SIGINT indicating exit request
+2019-11-21 10:02:31,769 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 10:02:31,771 INFO stopped: nginx-app (exit status 0)
+2019-11-21 10:02:35,457 INFO waiting for app-uwsgi to die
+2019-11-21 10:02:38,460 INFO waiting for app-uwsgi to die
+2019-11-21 10:02:41,463 INFO waiting for app-uwsgi to die
+2019-11-21 10:02:42,465 WARN killing 'app-uwsgi' (3956) with SIGKILL
+2019-11-21 10:02:42,494 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 10:02:47,562 INFO supervisord started with pid 4321
+2019-11-21 10:02:48,566 INFO spawned: 'app-uwsgi' with pid 4326
+2019-11-21 10:02:48,568 INFO spawned: 'nginx-app' with pid 4327
+2019-11-21 10:02:48,589 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:02:50,230 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:02:50,233 INFO spawned: 'nginx-app' with pid 4344
+2019-11-21 10:02:50,255 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:02:52,260 INFO spawned: 'nginx-app' with pid 4353
+2019-11-21 10:02:52,282 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:02:53,283 WARN received SIGINT indicating exit request
+2019-11-21 10:02:53,284 INFO waiting for app-uwsgi to die
+2019-11-21 10:02:56,927 INFO waiting for app-uwsgi to die
+2019-11-21 10:02:59,930 INFO waiting for app-uwsgi to die
+2019-11-21 10:03:02,933 INFO waiting for app-uwsgi to die
+2019-11-21 10:03:04,934 WARN killing 'app-uwsgi' (4326) with SIGKILL
+2019-11-21 10:03:04,936 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 10:03:37,122 INFO supervisord started with pid 4524
+2019-11-21 10:03:38,124 INFO spawned: 'app-uwsgi' with pid 4528
+2019-11-21 10:03:38,127 INFO spawned: 'nginx-app' with pid 4529
+2019-11-21 10:03:38,220 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:39,181 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:40,195 INFO spawned: 'nginx-app' with pid 4551
+2019-11-21 10:03:41,285 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:41,286 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:42,289 INFO spawned: 'nginx-app' with pid 4564
+2019-11-21 10:03:42,373 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:43,377 INFO spawned: 'nginx-app' with pid 4571
+2019-11-21 10:03:44,412 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:44,413 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:45,416 INFO spawned: 'nginx-app' with pid 4577
+2019-11-21 10:03:45,509 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:46,513 INFO spawned: 'nginx-app' with pid 4583
+2019-11-21 10:03:46,576 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:48,580 INFO spawned: 'nginx-app' with pid 4592
+2019-11-21 10:03:49,635 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:49,636 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:50,639 INFO spawned: 'nginx-app' with pid 4598
+2019-11-21 10:03:51,687 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:51,688 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:52,691 INFO spawned: 'nginx-app' with pid 4605
+2019-11-21 10:03:53,731 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:53,754 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:54,758 INFO spawned: 'nginx-app' with pid 4615
+2019-11-21 10:03:55,834 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:03:55,834 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:56,838 INFO spawned: 'nginx-app' with pid 4621
+2019-11-21 10:03:56,862 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:57,866 INFO spawned: 'nginx-app' with pid 4628
+2019-11-21 10:03:57,892 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:03:59,897 INFO spawned: 'nginx-app' with pid 4635
+2019-11-21 10:04:00,038 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:04:03,882 INFO spawned: 'nginx-app' with pid 4644
+2019-11-21 10:04:03,900 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 10:04:03,934 INFO gave up: nginx-app entered FATAL state, too many start retries too quickly
+2019-11-21 10:04:35,916 WARN received SIGINT indicating exit request
+2019-11-21 10:04:35,916 INFO waiting for app-uwsgi to die
+2019-11-21 10:04:39,372 INFO waiting for app-uwsgi to die
+2019-11-21 10:04:42,377 INFO waiting for app-uwsgi to die
+2019-11-21 10:04:45,381 INFO waiting for app-uwsgi to die
+2019-11-21 10:04:47,384 WARN killing 'app-uwsgi' (4528) with SIGKILL
+2019-11-21 10:04:47,386 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 10:05:06,838 INFO supervisord started with pid 4827
+2019-11-21 10:05:07,841 INFO spawned: 'app-uwsgi' with pid 4831
+2019-11-21 10:05:07,844 INFO spawned: 'nginx-app' with pid 4832
+2019-11-21 10:05:09,505 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:05:09,505 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:09:53,203 WARN received SIGINT indicating exit request
+2019-11-21 10:09:53,204 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 10:09:53,206 INFO stopped: nginx-app (exit status 0)
+2019-11-21 10:09:56,895 INFO waiting for app-uwsgi to die
+2019-11-21 10:09:59,899 INFO waiting for app-uwsgi to die
+2019-11-21 10:10:02,901 INFO waiting for app-uwsgi to die
+2019-11-21 10:10:03,901 WARN killing 'app-uwsgi' (4831) with SIGKILL
+2019-11-21 10:10:03,904 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 10:11:00,427 INFO supervisord started with pid 5564
+2019-11-21 10:11:01,429 INFO spawned: 'app-uwsgi' with pid 5568
+2019-11-21 10:11:01,432 INFO spawned: 'nginx-app' with pid 5569
+2019-11-21 10:11:03,415 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:11:03,416 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:11:47,670 WARN received SIGINT indicating exit request
+2019-11-21 10:11:47,671 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 10:11:47,673 INFO stopped: nginx-app (exit status 0)
+2019-11-21 10:11:51,533 INFO waiting for app-uwsgi to die
+2019-11-21 10:11:54,536 INFO waiting for app-uwsgi to die
+2019-11-21 10:11:57,545 INFO waiting for app-uwsgi to die
+2019-11-21 10:11:58,546 WARN killing 'app-uwsgi' (5568) with SIGKILL
+2019-11-21 10:11:58,550 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 10:57:00,436 INFO supervisord started with pid 9281
+2019-11-21 10:57:01,439 INFO spawned: 'app-uwsgi' with pid 9285
+2019-11-21 10:57:01,442 INFO spawned: 'nginx-app' with pid 9286
+2019-11-21 10:57:02,923 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:57:02,923 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 10:58:19,308 WARN received SIGINT indicating exit request
+2019-11-21 10:58:19,308 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 10:58:19,311 INFO stopped: nginx-app (exit status 0)
+2019-11-21 10:58:22,784 INFO waiting for app-uwsgi to die
+2019-11-21 10:58:25,788 INFO waiting for app-uwsgi to die
+2019-11-21 10:58:28,793 INFO waiting for app-uwsgi to die
+2019-11-21 10:58:29,794 WARN killing 'app-uwsgi' (9285) with SIGKILL
+2019-11-21 10:58:29,797 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 11:08:49,100 INFO supervisord started with pid 18276
+2019-11-21 11:08:50,103 INFO spawned: 'app-uwsgi' with pid 18281
+2019-11-21 11:08:50,106 INFO spawned: 'nginx-app' with pid 18282
+2019-11-21 11:08:50,170 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:08:50,221 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:08:51,224 INFO spawned: 'app-uwsgi' with pid 18289
+2019-11-21 11:08:51,228 INFO spawned: 'nginx-app' with pid 18290
+2019-11-21 11:08:51,251 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:08:52,254 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:08:52,255 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:08:53,258 INFO spawned: 'app-uwsgi' with pid 18297
+2019-11-21 11:08:53,261 INFO spawned: 'nginx-app' with pid 18298
+2019-11-21 11:08:53,281 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:08:54,284 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:08:54,284 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:08:55,288 INFO spawned: 'nginx-app' with pid 18304
+2019-11-21 11:08:55,288 WARN received SIGINT indicating exit request
+2019-11-21 11:08:55,351 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 11:08:55,352 INFO stopped: nginx-app (terminated by SIGTERM)
+2019-11-21 11:22:19,515 INFO supervisord started with pid 20169
+2019-11-21 11:22:20,518 INFO spawned: 'app-uwsgi' with pid 20174
+2019-11-21 11:22:20,521 INFO spawned: 'nginx-app' with pid 20175
+2019-11-21 11:22:20,528 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:22:21,544 INFO spawned: 'app-uwsgi' with pid 20182
+2019-11-21 11:22:21,545 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:22:21,553 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:22:23,558 INFO spawned: 'app-uwsgi' with pid 20185
+2019-11-21 11:22:23,569 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:22:26,575 INFO spawned: 'app-uwsgi' with pid 20188
+2019-11-21 11:22:26,586 INFO exited: app-uwsgi (exit status 127; not expected)
+2019-11-21 11:22:26,587 INFO gave up: app-uwsgi entered FATAL state, too many start retries too quickly
+2019-11-21 11:22:28,589 WARN received SIGINT indicating exit request
+2019-11-21 11:22:28,589 INFO waiting for nginx-app to die
+2019-11-21 11:22:28,591 INFO stopped: nginx-app (exit status 0)
+2019-11-21 11:35:49,355 INFO supervisord started with pid 27377
+2019-11-21 11:35:50,358 INFO spawned: 'app-uwsgi' with pid 27384
+2019-11-21 11:35:50,363 INFO spawned: 'nginx-app' with pid 27385
+2019-11-21 11:35:50,391 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:35:51,828 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:35:51,832 INFO spawned: 'nginx-app' with pid 27394
+2019-11-21 11:35:51,861 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:35:53,866 INFO spawned: 'nginx-app' with pid 27401
+2019-11-21 11:35:53,893 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:35:56,900 INFO spawned: 'nginx-app' with pid 27408
+2019-11-21 11:35:56,930 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 11:35:57,931 INFO gave up: nginx-app entered FATAL state, too many start retries too quickly
+2019-11-21 11:35:59,935 WARN received SIGINT indicating exit request
+2019-11-21 11:35:59,935 INFO waiting for app-uwsgi to die
+2019-11-21 11:36:03,393 INFO waiting for app-uwsgi to die
+2019-11-21 11:36:06,397 INFO waiting for app-uwsgi to die
+2019-11-21 11:36:09,401 INFO waiting for app-uwsgi to die
+2019-11-21 11:36:11,404 WARN killing 'app-uwsgi' (27384) with SIGKILL
+2019-11-21 11:36:11,406 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 11:36:37,016 INFO supervisord started with pid 27555
+2019-11-21 11:36:38,020 INFO spawned: 'app-uwsgi' with pid 27559
+2019-11-21 11:36:38,023 INFO spawned: 'nginx-app' with pid 27560
+2019-11-21 11:36:39,523 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:36:39,523 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:37:18,101 WARN received SIGINT indicating exit request
+2019-11-21 11:37:18,102 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 11:37:18,105 INFO stopped: nginx-app (exit status 0)
+2019-11-21 11:37:21,605 INFO waiting for app-uwsgi to die
+2019-11-21 11:37:24,609 INFO waiting for app-uwsgi to die
+2019-11-21 11:37:27,613 INFO waiting for app-uwsgi to die
+2019-11-21 11:37:28,614 WARN killing 'app-uwsgi' (27559) with SIGKILL
+2019-11-21 11:37:28,617 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 11:38:06,064 INFO supervisord started with pid 27889
+2019-11-21 11:38:07,066 INFO spawned: 'app-uwsgi' with pid 27899
+2019-11-21 11:38:07,069 INFO spawned: 'nginx-app' with pid 27900
+2019-11-21 11:38:08,509 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:38:08,509 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:39:01,334 WARN received SIGINT indicating exit request
+2019-11-21 11:39:01,334 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 11:39:01,337 INFO stopped: nginx-app (exit status 0)
+2019-11-21 11:39:04,850 INFO waiting for app-uwsgi to die
+2019-11-21 11:39:07,853 INFO waiting for app-uwsgi to die
+2019-11-21 11:39:10,858 INFO waiting for app-uwsgi to die
+2019-11-21 11:39:11,859 WARN killing 'app-uwsgi' (27899) with SIGKILL
+2019-11-21 11:39:11,862 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 11:39:14,019 INFO supervisord started with pid 28074
+2019-11-21 11:39:15,022 INFO spawned: 'app-uwsgi' with pid 28078
+2019-11-21 11:39:15,026 INFO spawned: 'nginx-app' with pid 28079
+2019-11-21 11:39:16,531 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 11:39:16,531 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:11:16,311 WARN received SIGINT indicating exit request
+2019-11-21 12:11:16,312 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:11:16,314 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:11:19,832 INFO waiting for app-uwsgi to die
+2019-11-21 12:11:22,836 INFO waiting for app-uwsgi to die
+2019-11-21 12:11:25,840 INFO waiting for app-uwsgi to die
+2019-11-21 12:11:26,841 WARN killing 'app-uwsgi' (28078) with SIGKILL
+2019-11-21 12:11:26,844 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 12:14:59,577 INFO supervisord started with pid 31418
+2019-11-21 12:15:00,581 INFO spawned: 'app-uwsgi' with pid 31423
+2019-11-21 12:15:00,584 INFO spawned: 'nginx-app' with pid 31424
+2019-11-21 12:15:00,646 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 12:15:02,082 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:15:02,085 INFO spawned: 'nginx-app' with pid 31433
+2019-11-21 12:15:02,111 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 12:15:04,117 INFO spawned: 'nginx-app' with pid 31439
+2019-11-21 12:15:04,144 INFO exited: nginx-app (exit status 1; not expected)
+2019-11-21 12:15:06,147 WARN received SIGINT indicating exit request
+2019-11-21 12:15:06,189 INFO waiting for app-uwsgi to die
+2019-11-21 12:15:09,617 INFO waiting for app-uwsgi to die
+2019-11-21 12:15:12,621 INFO waiting for app-uwsgi to die
+2019-11-21 12:15:15,625 INFO waiting for app-uwsgi to die
+2019-11-21 12:15:17,627 WARN killing 'app-uwsgi' (31423) with SIGKILL
+2019-11-21 12:15:17,630 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 12:16:36,281 INFO supervisord started with pid 31660
+2019-11-21 12:16:37,284 INFO spawned: 'app-uwsgi' with pid 31664
+2019-11-21 12:16:37,286 INFO spawned: 'nginx-app' with pid 31665
+2019-11-21 12:16:38,765 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:16:38,766 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:17:33,497 WARN received SIGINT indicating exit request
+2019-11-21 12:17:33,498 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:17:33,500 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:17:36,934 INFO waiting for app-uwsgi to die
+2019-11-21 12:17:39,937 INFO waiting for app-uwsgi to die
+2019-11-21 12:17:42,942 INFO waiting for app-uwsgi to die
+2019-11-21 12:17:43,943 WARN killing 'app-uwsgi' (31664) with SIGKILL
+2019-11-21 12:17:43,946 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 12:17:50,922 INFO supervisord started with pid 31820
+2019-11-21 12:17:51,925 INFO spawned: 'app-uwsgi' with pid 31824
+2019-11-21 12:17:51,928 INFO spawned: 'nginx-app' with pid 31825
+2019-11-21 12:17:53,344 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:17:53,344 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:19:19,858 WARN received SIGINT indicating exit request
+2019-11-21 12:19:19,859 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:19:19,861 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:19:23,333 INFO waiting for app-uwsgi to die
+2019-11-21 12:19:26,337 INFO waiting for app-uwsgi to die
+2019-11-21 12:19:29,341 INFO waiting for app-uwsgi to die
+2019-11-21 12:19:30,342 WARN killing 'app-uwsgi' (31824) with SIGKILL
+2019-11-21 12:19:30,345 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 12:21:07,612 INFO supervisord started with pid 32217
+2019-11-21 12:21:08,615 INFO spawned: 'app-uwsgi' with pid 32221
+2019-11-21 12:21:08,618 INFO spawned: 'nginx-app' with pid 32222
+2019-11-21 12:21:10,060 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:21:10,060 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:23:29,060 WARN received SIGINT indicating exit request
+2019-11-21 12:23:29,060 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:23:29,063 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:23:32,535 INFO waiting for app-uwsgi to die
+2019-11-21 12:23:35,539 INFO waiting for app-uwsgi to die
+2019-11-21 12:23:38,543 INFO waiting for app-uwsgi to die
+2019-11-21 12:23:39,545 WARN killing 'app-uwsgi' (32221) with SIGKILL
+2019-11-21 12:23:39,547 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 12:26:05,741 INFO supervisord started with pid 383
+2019-11-21 12:26:06,744 INFO spawned: 'app-uwsgi' with pid 387
+2019-11-21 12:26:06,747 INFO spawned: 'nginx-app' with pid 388
+2019-11-21 12:26:07,344 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:08,348 INFO spawned: 'app-uwsgi' with pid 399
+2019-11-21 12:26:08,348 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:26:08,414 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:10,419 INFO spawned: 'app-uwsgi' with pid 411
+2019-11-21 12:26:10,481 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:13,487 INFO spawned: 'app-uwsgi' with pid 415
+2019-11-21 12:26:13,548 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:14,549 INFO gave up: app-uwsgi entered FATAL state, too many start retries too quickly
+2019-11-21 12:26:16,553 WARN received SIGINT indicating exit request
+2019-11-21 12:26:16,553 INFO waiting for nginx-app to die
+2019-11-21 12:26:16,556 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:26:52,781 INFO supervisord started with pid 541
+2019-11-21 12:26:53,784 INFO spawned: 'app-uwsgi' with pid 545
+2019-11-21 12:26:53,787 INFO spawned: 'nginx-app' with pid 546
+2019-11-21 12:26:54,028 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:55,032 INFO spawned: 'app-uwsgi' with pid 557
+2019-11-21 12:26:55,032 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:26:55,098 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:57,103 INFO spawned: 'app-uwsgi' with pid 561
+2019-11-21 12:26:57,168 INFO exited: app-uwsgi (terminated by SIGABRT (core dumped); not expected)
+2019-11-21 12:26:58,170 WARN received SIGINT indicating exit request
+2019-11-21 12:26:58,209 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:26:58,211 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:27:16,897 INFO supervisord started with pid 643
+2019-11-21 12:27:17,900 INFO spawned: 'app-uwsgi' with pid 647
+2019-11-21 12:27:17,903 INFO spawned: 'nginx-app' with pid 648
+2019-11-21 12:27:19,388 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:27:19,388 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:27:57,434 WARN received SIGINT indicating exit request
+2019-11-21 12:27:57,435 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:27:57,437 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:28:00,869 INFO waiting for app-uwsgi to die
+2019-11-21 12:28:03,873 INFO waiting for app-uwsgi to die
+2019-11-21 12:28:06,876 INFO waiting for app-uwsgi to die
+2019-11-21 12:28:07,877 WARN killing 'app-uwsgi' (647) with SIGKILL
+2019-11-21 12:28:07,880 INFO stopped: app-uwsgi (terminated by SIGKILL)
+2019-11-21 12:28:21,286 INFO supervisord started with pid 824
+2019-11-21 12:28:22,289 INFO spawned: 'app-uwsgi' with pid 829
+2019-11-21 12:28:22,292 INFO spawned: 'nginx-app' with pid 830
+2019-11-21 12:28:23,732 INFO success: app-uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:28:23,732 INFO success: nginx-app entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-21 12:28:33,745 WARN received SIGINT indicating exit request
+2019-11-21 12:28:33,745 INFO waiting for app-uwsgi, nginx-app to die
+2019-11-21 12:28:33,748 INFO stopped: nginx-app (exit status 0)
+2019-11-21 12:28:37,246 INFO waiting for app-uwsgi to die
+2019-11-21 12:28:40,250 INFO waiting for app-uwsgi to die
+2019-11-21 12:28:43,254 INFO waiting for app-uwsgi to die
+2019-11-21 12:28:44,255 WARN killing 'app-uwsgi' (829) with SIGKILL
+2019-11-21 12:28:44,258 INFO stopped: app-uwsgi (terminated by SIGKILL)
