@@ -23,6 +23,12 @@ Go to the source repository directory
 ```bash
 cd flame_API/flame_api
 ```
+Configure:
+
+![](img/nginx.gif)
+![](img/uwsgi.gif)
+![](img/supervisord.gif)
+
 
 Type
 
