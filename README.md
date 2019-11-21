@@ -7,27 +7,32 @@ Flame should have been already installed in this computer. Refer to the [flame](
 
 Start activating the flame environment typing:
 
-```bash
+```sh
 source activate flame (in Linux)
 activate flame (in Windows)
 ```
 
 Download the repository:
 
-```bash
+```sh
 git clone https://github.com/phi-grib/flame_API.git
 ```
 
 Go to the source repository directory 
 
-```bash
+```sh
 cd flame_API/flame_api
 ```
-Configure:
+Configure files:
 
-![](img/nginx.gif)
-![](img/uwsgi.gif)
-![](img/supervisord.gif)
+Replace `{ABSOLUTE_PROJECT_PATH}` string  with the absolute path of the project in the `nginx-app.conf` and `supervisor-app.conf` files.
+
+![nginx](img/nginx.gif)
+![supervisor](img/supervisord.gif)
+
+Replace `{ENVIRONMENT_PATH_FLAME}` string  with the absolute path of the flame enviroment in the `uwsgi.ini`file.
+![uwsgi](img/uwsgi.gif)
+
 
 
 Type
