@@ -1,4 +1,4 @@
-# flame_API
+# flame_service
 OpenAPI 3 definition for flame and django rest framework implementation.
 
 ## Installation
@@ -15,7 +15,7 @@ activate flame (in Windows)
 Download the repository:
 
 ```sh
-git clone https://github.com/phi-grib/flame_API.git
+git clone https://github.com/phi-grib/flame_service.git
 ```
 
 Go to the source repository directory 
