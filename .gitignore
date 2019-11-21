@@ -1,0 +1,5 @@
+supervisor*
+app.sock
+nginx-app.conf
+uwsgi_params
+uwsgi.ini
